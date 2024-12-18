@@ -1,7 +1,5 @@
 # Ganar y perder
 
-## Codigo
-
 ## Arte
 
 ### Perder
@@ -95,5 +93,56 @@ y finalmente puse el fondo en el medio de color crema.
 La imagen final:
 
 ![Win Screen](https://github.com/user-attachments/assets/5ebb417d-6c0f-4f68-9345-4ecc9cfe8448)
+
+## Codigo
+
+Para aregurarse de que el jugador pierda hay un script que está conectado al evento de la muerte del jugador, el cual cambia la escena a `Loser`.
+
+El script `DeathScreenMover.cs`
+```
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.SceneManagement;
+
+public class DeathScreenMover : MonoBehaviour
+{
+    [SerializeField] LifeFinal playerlife;
+
+    void Start()
+    {
+        playerlife.onDeath.AddListener(PlayerDied);
+
+    }
+
+    private void PlayerDied() {
+        SceneManager.LoadScene("Loser");
+    }
+}
+```
+
+Este script se colocó en un objeto vacío en la escena.
+
+Para ganar colocamos una plataforma justo afuera de la salida del laberinto, para que cuando el jugador saliera pudiera caer encima y cuando colosionara se moviera a la escena `Winner`. Nos aseguramos que la plataforma `isTrigger`.
+
+![image](https://github.com/user-attachments/assets/c20cd67c-d02f-48e0-a2d5-0bc31515a93e)
+
+
+El script `EndingMover.cs`
+```
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class EndingMover : MonoBehaviour
+{
+    void OnTriggerEnter(Collider Other)
+    {
+        SceneManager.LoadScene("Winner");
+    }
+}
+```
 
 ## Conectar las escenas y el build settings
