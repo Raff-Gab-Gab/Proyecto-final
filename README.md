@@ -17,6 +17,8 @@ Preguntas
 
 Ganar y perder
 
+Interfaz del jugador
+
 Descargar
 
 ## Screenshots y Demo
