@@ -17,7 +17,7 @@ Preguntas
 
 [Ganar y perder](https://github.com/Raff-Gab-Gab/Proyecto-final/blob/main/Ganar%20y%20perder.md)
 
-Interfaz del jugador
+[Interfaz del jugador](https://github.com/Raff-Gab-Gab/Proyecto-final/blob/main/ui.md)
 
 Descargar
 
