@@ -1,7 +1,7 @@
 # Proyecto-final
 CCOM Spooky Maze 
 
-[resumen de la idea del juego]
+El jugador es un estudiante del Departamento de Ciencia de Cómputos en una aventura para encontrar y despejar la salida de un laberinto boscoso que representa la travesía por el Bachillerato en CCOM. Dicho laberinto se encuentra poblado de fantasmas y cuatro jefes, los cuales son profesores del departamento que le presentan al jugador con una pregunta acerca de su clase. EL jugador debe contestar las cuatro preguntas correctamente y sobrevivir los ataques de los fantasmas para destruir la puerta del laberinto y completar el juego o, en otras palabras, graduarse del bachillerato. 
 
 ## Directorio
 
