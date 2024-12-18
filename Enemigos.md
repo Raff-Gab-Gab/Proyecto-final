@@ -26,10 +26,30 @@ La máquina de estados finitos de estos enemigos, las opciones o acciones que pu
 
 Ahora bien, para localizar la base y al jugador, se utilizó un script que determina cuál es la distancia que puede acaparar o cuánto puede detectar o ver el fantasma alrededor de sí. Se determinó el tamaño del círculo de detección del fantasma y un ángulo de visión. Estos elementos son los que se utilizan en el script de la máquina de estados finitos del fantasma para poder localizar los objetos como la base y caminar hacia ella. 
 
-### El script para la visión del fantasma. 
+### El script para la visión de los fantasmas. 
 ![Captura de pantalla 2024-12-17 232026](https://github.com/user-attachments/assets/dd546a29-4c47-4bb1-86ce-1533d64ddeae)
 ![Captura de pantalla 2024-12-17 232041](https://github.com/user-attachments/assets/9a92c37c-4465-4aa6-b703-7d1e329bdffb)
-![Captura de pantalla 2024-12-17 232058](https://github.com/user-attachments/assets/3aec4d9d-8b69-4db0-bb32-f2e9373174a0)
+![image](https://github.com/user-attachments/assets/0a0ba10e-9874-4317-933d-b2718b303ba5)
+
+Estos fantasmas están constantemente siendo generados en 8 "spawners" distintos alrededor del mapa. Para esto, se creó un EnemyManager donde se mantiene una lista de todas las instancias de fantasmas que se crean. Por otro lado, cuando un enemigo se muere, éste es sacado de la lista. Esto es para controlar y tener en cuenta todos los enemigos en el juego. Cada fantasma tiene un script donde se instancia y se añade a la lista. 
+
+### Script para añadir el fantasma a la lista de enemigos 
+![image](https://github.com/user-attachments/assets/f56057f9-3a46-4a96-abcd-8f5e1cf0cce3)
+
+### Script para manejar la lista (Ghost manager)
+![Captura de pantalla 2024-12-17 235647](https://github.com/user-attachments/assets/2d30aacf-0b95-494f-875a-468e2ac60c11)
+
+Los "spawners" u olas de enemigos también tienen su propio manejador para saber cúantos "waves" empezaron, continúan o terminaron de generar enemigos. Estos "spawners" toman el prefab del fantasma y los instancian durante un período y razón específico. 
+
+### Script para los spawns de los fantasmas 
+![Captura de pantalla 2024-12-17 235905](https://github.com/user-attachments/assets/cd158d1a-2434-4bd7-9e8a-3d3ed1d5490d)
+
+### Script del manejador de olas (spawns) de enemigos 
+![Captura de pantalla 2024-12-17 235905](https://github.com/user-attachments/assets/4eda7535-3d90-4226-93df-2b19ecef41f8)
+
+
+
+
 
 
 
