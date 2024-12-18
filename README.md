@@ -11,7 +11,7 @@ El jugador es un estudiante del Departamento de Ciencia de Cómputos en una aven
 
 [Enemigos](https://github.com/Raff-Gab-Gab/Proyecto-final/blob/main/Enemigos.md)
 
-Decoraciones
+[Decoraciones](https://github.com/Raff-Gab-Gab/Proyecto-final/blob/main/Decoraciones.md)
 
 [Preguntas](https://github.com/Raff-Gab-Gab/Proyecto-final/blob/main/Preguntas.md)
 
