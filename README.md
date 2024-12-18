@@ -5,15 +5,15 @@ El jugador es un estudiante del Departamento de Ciencia de Cómputos en una aven
 
 ## Directorio
 
-Laberinto
+[Laberinto](https://github.com/Raff-Gab-Gab/Proyecto-final/blob/main/laberinto.md)
 
-Jugador
+[Jugador](https://github.com/Raff-Gab-Gab/Proyecto-final/blob/main/Jugador.md)
 
 [Enemigos](https://github.com/Raff-Gab-Gab/Proyecto-final/blob/main/Enemigos.md)
 
 Decoraciones
 
-Preguntas
+[Preguntas](https://github.com/Raff-Gab-Gab/Proyecto-final/blob/main/Preguntas.md)
 
 [Ganar y perder](https://github.com/Raff-Gab-Gab/Proyecto-final/blob/main/Ganar%20y%20perder.md)
 
