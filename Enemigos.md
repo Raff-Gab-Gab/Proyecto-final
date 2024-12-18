@@ -67,7 +67,7 @@ Los fantasmas, al igual que el jugador, disparan balas hechas como un prefab. Es
 ![Captura de pantalla 2024-12-18 003636](https://github.com/user-attachments/assets/62cd6d21-cde2-4a7e-b0df-470b35185474)
 
 ### Layers 
-![image](https://github.com/user-attachments/assets/d5882569-9e37-4b0e-96dd-58c4359e3997)
+![image](https://github.com/user-attachments/assets/dd6018d2-561e-4e30-9955-2df3139f6f45)
 
 
 
