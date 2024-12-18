@@ -49,10 +49,27 @@ Los "spawners" u olas de enemigos también tienen su propio manejador para saber
 
 ## Enemigos grandes
 
-Además de los fantasmas siendo instanciados en diferentes localizaciones del laberinto, se colocaron dos fantasmas en éste en esquinas opuestas. Este fantasma es más grande, posee más vida y hace más daño. Contrario a los otros que caminan hacia la base, estos fantasmas grandes tienen como estado predeterminado a seguir el jugador durante todo el juego y atacarlo si se le acerca a una distancia específica determinada en la máquina de estados finito. La vida de este enemigo se estableció con el mismo script de LifeFinal utilizada con los otros fantasmas pequeños. 
+Además de los fantasmas siendo instanciados en diferentes localizaciones del laberinto, se colocaron dos fantasmas en éste en esquinas opuestas. Este fantasma es más grande, posee más vida y hace más daño. Contrario a los otros que caminan hacia la base, estos fantasmas grandes tienen como estado predeterminado a seguir el jugador durante todo el juego y atacarlo si se le acerca a una distancia específica determinada en la máquina de estados finito. La vida de este enemigo se estableció con el mismo script de LifeFinal utilizada con los otros fantasmas pequeños. También, poseen el navigation mesh para caminar por el mapa. 
 ![Captura de pantalla 2024-12-17 223837](https://github.com/user-attachments/assets/48dfac7c-eb04-4299-8b45-e7cbf56ceca0)
 
-Al igual que con los otros fantasmas, se estableció el rango de visión del fantasma con el mismo código de sight para que el fantasma pudiese detectar sus alrededores. máquina de estados finitas es distinta ya que este enemigo solamente sigue el enemigo o lo 
+Al igual que con los otros fantasmas, se estableció el rango de visión del fantasma con el mismo código de sight para que pudiese detectar sus alrededores, pero se realizó otro script de máquina de estados finitas para que solamente cambiara de los dos estados ya mencionados. 
+
+### Script de la máquina de estados finito para el fantasma grande
+![Captura de pantalla 2024-12-18 003110](https://github.com/user-attachments/assets/1558c3c5-1308-4cac-b98b-ea0917dd7bec)
+![Captura de pantalla 2024-12-18 003123](https://github.com/user-attachments/assets/b3bd9424-e4ca-4d79-b6f6-298550d35483)
+![Captura de pantalla 2024-12-18 003138](https://github.com/user-attachments/assets/f9c89abc-e494-420c-85ac-a6d93ffab149)
+![Captura de pantalla 2024-12-18 003156](https://github.com/user-attachments/assets/e05f70aa-052c-4391-b9d9-c4fe9094d3e1)
+
+## Ataque de los fantasmas 
+Los fantasmas, al igual que el jugador, disparan balas hechas como un prefab. Estas balas poseen un tiempo de vida, lo cual significa que si no chocan con algún otro objecto (collider), se destruyen en un tiempo determinado. Por otra parte, se creó un script para que siguiesen moviéndose hacia delante en línea recta cuando son instanciadas desde el enemigo y/o jugador y también se estableció que destruyeran o le quitasen vida al jugador y/o enemigo. Las balas del enemigo y jugador poseen el mismo script y collider esférico; la única diferencia entre ellas sería qué objetos pueden afectar. En los layers de la escena se estableció que la bala de los enemigos interaccione con los jugadores y les quite vida. 
+
+### Script para quitar vida o destruir 
+![Captura de pantalla 2024-12-18 003636](https://github.com/user-attachments/assets/62cd6d21-cde2-4a7e-b0df-470b35185474)
+
+### Layers 
+![image](https://github.com/user-attachments/assets/d5882569-9e37-4b0e-96dd-58c4359e3997)
+
+
 
 
 
