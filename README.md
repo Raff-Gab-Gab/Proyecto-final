@@ -9,7 +9,7 @@ Laberinto
 
 Jugador
 
-Enemigos
+[Enemigos](https://github.com/Raff-Gab-Gab/Proyecto-final/blob/main/Enemigos.md)
 
 Decoraciones
 
