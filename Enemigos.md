@@ -47,7 +47,12 @@ Los "spawners" u olas de enemigos también tienen su propio manejador para saber
 ### Script del manejador de olas (spawns) de enemigos 
 ![Captura de pantalla 2024-12-17 235905](https://github.com/user-attachments/assets/4eda7535-3d90-4226-93df-2b19ecef41f8)
 
+## Enemigos grandes
 
+Además de los fantasmas siendo instanciados en diferentes localizaciones del laberinto, se colocaron dos fantasmas en éste en esquinas opuestas. Este fantasma es más grande, posee más vida y hace más daño. Contrario a los otros que caminan hacia la base, estos fantasmas grandes tienen como estado predeterminado a seguir el jugador durante todo el juego y atacarlo si se le acerca a una distancia específica determinada en la máquina de estados finito. La vida de este enemigo se estableció con el mismo script de LifeFinal utilizada con los otros fantasmas pequeños. 
+![Captura de pantalla 2024-12-17 223837](https://github.com/user-attachments/assets/48dfac7c-eb04-4299-8b45-e7cbf56ceca0)
+
+Al igual que con los otros fantasmas, se estableció el rango de visión del fantasma con el mismo código de sight para que el fantasma pudiese detectar sus alrededores. máquina de estados finitas es distinta ya que este enemigo solamente sigue el enemigo o lo 
 
 
 
