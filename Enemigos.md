@@ -1,6 +1,6 @@
 ## Enemigos pequeños
 
-En el laberinto se encuentran múltiples fantasmas, los enemigos, caminando por la estructura hasta llegar a una base localizada en el centro del mapa. Estos fantasmas tienen como estado inicial llevar hacia la base y destruirse cuando llegan a ella. No obstante, si se topa con el jugador, éste lo sigue y le dispara, quitándole vida. Por otro lado, estos fantasmas tienen vida y pueden ser matados por el jugador.
+En el laberinto se encuentran múltiples fantasmas, los enemigos, caminando por la estructura hasta llegar a una base localizada en el centro del mapa. Estos fantasmas tienen como estado inicial llevar hacia la base y destruirse cuando llegan a ella. No obstante, si se topa con el jugador, éste lo sigue y le dispara, quitándole vida. Los fantasmas poseen un collider en forma de cápsula y pueden ser matados por el jugador. 
 
 ### Los fantasmas 
 ![Captura de pantalla 2024-12-17 225530](https://github.com/user-attachments/assets/6cd3132a-7a57-4c37-96c5-8027ee8648a2)
