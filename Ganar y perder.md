@@ -94,7 +94,7 @@ La imagen final:
 
 ![Win Screen](https://github.com/user-attachments/assets/5ebb417d-6c0f-4f68-9345-4ecc9cfe8448)
 
-## Codigo
+## Código
 
 Para aregurarse de que el jugador pierda hay un script que está conectado al evento de la muerte del jugador, el cual cambia la escena a `Loser`.
 
@@ -146,3 +146,19 @@ public class EndingMover : MonoBehaviour
 ```
 
 ## Conectar las escenas y el build settings
+
+Se crearon tres escenas totales en el juego: la escena principal, el Win Screen y el Lose Screen.
+
+![image](https://github.com/user-attachments/assets/d2dbe915-9c5b-492b-9bc6-b2b0ee867865)
+
+En la escena `Winner` se colocó un canvas con la imagen dibujada.
+
+![image](https://github.com/user-attachments/assets/deec1d66-f475-4621-8877-e9f36b1a001f)
+
+Se hizo lo mismo para la escena `Loser`.
+
+![image](https://github.com/user-attachments/assets/e14a08f5-8015-4006-9935-fe0a0667f29d)
+
+Una vez hecho se abrieron los `Build Settings` de Unity para añadir las escenas nuevas y que puedan funcionar con el código provisto.
+
+![image](https://github.com/user-attachments/assets/6b15186f-fc1c-4d87-834e-44bd4ccb8316)
