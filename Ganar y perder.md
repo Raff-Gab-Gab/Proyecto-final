@@ -54,4 +54,46 @@ text
 
 text
 
+![image](https://github.com/user-attachments/assets/a713da3e-49ae-4e35-aa9c-2a6fc51e677a)
+
+text
+
+![premium_photo-1675802518675-d1c455e396be](https://github.com/user-attachments/assets/096711e8-efca-42f9-bbba-4cd775ffcb64)
+
+text
+
+![image](https://github.com/user-attachments/assets/23efe358-ff73-4832-8072-35c31663d7a1)
+
+text
+
+![image](https://github.com/user-attachments/assets/d72c013a-9eb9-49b0-8924-25a6609de05b)
+
+text
+
+![image](https://github.com/user-attachments/assets/1646d6e4-1062-464d-bd4a-a9fc0d8026c0)
+
+text
+
+![image](https://github.com/user-attachments/assets/a5c7e600-f1ed-4cfb-9ee8-871d9b723272)
+
+text
+
+![image](https://github.com/user-attachments/assets/a54df160-ed13-46bb-a7b5-d4637b72ee83)
+
+text
+
+![image](https://github.com/user-attachments/assets/d9ea2130-abd9-4449-9341-0459a824c4cc)
+
+text
+
+![image](https://github.com/user-attachments/assets/104f8dfc-e85c-4c9a-9201-67d2c27e9cf8)
+
+text
+
+![image](https://github.com/user-attachments/assets/922a25b7-92b4-4abd-be65-17e0b623afc3)
+
+text
+
+![Win Screen](https://github.com/user-attachments/assets/5ebb417d-6c0f-4f68-9345-4ecc9cfe8448)
+
 ## Conectar las escenas y el build settings
