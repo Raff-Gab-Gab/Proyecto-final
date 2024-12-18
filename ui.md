@@ -12,7 +12,7 @@ Dentro de Unity se creó un canvas para acomodar todo. Dentro se le colocó la i
 
 ![image](https://github.com/user-attachments/assets/9f9b3709-466a-42ea-b337-aa4f240f1196)
 
-Para que UI fuera funcional se creo un script `UIchecker.cs` para el objecto canvas. El script tiene referencia a la vida del jugador y mantiene una variable con la cantidad de preguntas respuestas. Hay una función update que chequea siempre el estado de la vida del jugador y mantiene la barra al d'ia. Ademas contiene una funcion `AddOne()` que cuando se llama aumenta la variable para la cantidad de preguntas respuestas y actualiza el texto. Para que pueda funcionar bien depende de que otros scripts puedan utilizar su función `AddOne()` as'i que además es un singleton para que el script `RightAnswer.cs`, activado cada vez que el jugador tenga una respuesta correcta, la pueda utilizar.
+Para que UI fuera funcional se creo un script `UIchecker.cs` para el objecto canvas. El script tiene referencia a la vida del jugador y mantiene una variable con la cantidad de preguntas respuestas. Hay una función update que chequea siempre el estado de la vida del jugador y mantiene la barra al día. Ademas contiene una funcion `AddOne()` que cuando se llama aumenta la variable para la cantidad de preguntas respuestas y actualiza el texto. Para que pueda funcionar bien depende de que otros scripts puedan utilizar su función `AddOne()` así que además es un singleton para que el script `RightAnswer.cs`, activado cada vez que el jugador tenga una respuesta correcta, la pueda utilizar.
 
 Script `UIchecker.cs`
 ```
