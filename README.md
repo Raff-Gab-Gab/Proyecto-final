@@ -15,7 +15,7 @@ Decoraciones
 
 Preguntas
 
-Ganar y perder
+[Ganar y perder](Ganar y perder.md)
 
 Interfaz del jugador
 
